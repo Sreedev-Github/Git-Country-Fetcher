@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+    color: rgb(224, 224, 224)
+}
+.title{
+    text-align: center;
+    margin: 2%;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#dropdownBtn{
+    padding: 5px 20px;
+    background-color: #85bdfd;
+    font-size: bolder;
+    /* width: 200px; */
+    border: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.countries{
+    display: none;
+    position: absolute;
+    text-align: center;
+    /* width: 200px; */
+    height: 180px;
+    margin-top: 1.9%;
+    background-color: white;
+    z-index: 99;
+    transition: all 2sec ease;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.countries a{
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #212121 !important; 
+}
+
+.countries a:hover{
+    background-color: #e7e7e7;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 5%;
+    width: 18rem;
+    border: none;
+    text-align: center;
+}
+.card-title{
+    font-weight: bolder;
+}
+
+.card .btn{
+    background-color: #212121;
+}
+
+.card .btn:hover{
+    background-color: #ffffff;
+    color: #000;
+}
+
+.optionText{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10%;
+}
